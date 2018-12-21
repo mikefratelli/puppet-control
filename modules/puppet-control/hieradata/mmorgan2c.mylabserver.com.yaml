@@ -1,0 +1,8 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'mmorgan2c.mylabserver.com'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'mmorgan2d.mylabserver.com'
+  'port': 80
+  'server_aliases': 'mmorgan2d1.mylabserver.com'
